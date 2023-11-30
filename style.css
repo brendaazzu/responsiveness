@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Caprasimo', serif;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    font-size: 50px;
+    margin-top: 30vh;
+}
+
+.buttons {
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btn {
+    font-family: 'Caprasimo', serif;
+    font-weight: lighter;
+    font-size: 25px;
+    color: black;
+    border: 2px groove black;
+    border-radius: 12px;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+.btn1 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #FFB6C1;
+    color: #85545c;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: #FFB6C1;
+    border-style: solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn1:hover {
+        background: linear-gradient(to bottom, #FFB6C1, #fbd3d7);
+    }
+
+.btn2 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #ADD8E6;
+    color: #85545c;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: #ADD8E6;
+    border-style: solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn2:hover {
+        background: linear-gradient(to bottom, #ADD8E6, #c4e0e9);
+}
+    
+.btn3 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #90EE90;
+    color: #85545c;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: #90EE90;
+    border-style: solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn3:hover {
+        background: linear-gradient(to bottom, #90EE90, #b2ecb2);
+}
+
+.btn4 {
+    display: inline-block;
+    width: 200px;
+    height: 100px;
+    background-color: #FFFACD;
+    color: #85545c;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    border-color: #FFFACD;
+    border-style: solid;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.btn4:hover {
+        background: linear-gradient(to bottom, #FFFACD, #fbf8e0);
+}
+

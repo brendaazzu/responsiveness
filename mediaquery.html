@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190120/ourmid/pngtree-desktop-pc-computer-desktop-computer-png-image_484500.jpg" type="image/png">
+    <title>Media Query</title>
+
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+      h1 {
+          font-family: 'Caprasimo', serif;
+          letter-spacing: 2px;
+          font-weight: lighter;
+          font-size: 50px;
+      }
+
+      div {
+        cursor: pointer;
+        background-color: #FFB6C1;
+        border-radius: 12px;
+        border-color: #FFB6C1;
+        border-style: solid;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        height: 350px;
+        width: 350px;
+      }
+
+      body {
+      overflow: hidden;
+      }
+
+      @media (max-width: 600px) {
+
+        h1 {
+          height: 100px;
+          width: 200px;
+        }
+
+        div {
+          height: 200px;
+          width: 200px;
+        }
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+    <h1>Media Query</h1>
+    <div></div>
+  </body>
+
+</html>

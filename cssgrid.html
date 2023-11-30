@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190120/ourmid/pngtree-desktop-pc-computer-desktop-computer-png-image_484500.jpg" type="image/png">
+     <title>CSS Grid</title>
+
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+      h1 {
+          font-family: 'Caprasimo', serif;
+          letter-spacing: 2px;
+          font-weight: lighter;
+          font-size: 50px;
+      }
+
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 100px 150px 150px;
+        gap: 30px;
+      }
+
+      .first {
+        grid-column: span 2;
+      }
+
+      .card {
+        background-color: #ADD8E6;
+        cursor: pointer;
+        border-radius: 12px;
+        border-color: #ADD8E6;
+        border-style: solid;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+      }
+
+      body {
+      overflow: hidden;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <h1>CSS Grid</h1>
+    <div class="grid-container">
+      <div class="first card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+  </body>
+
+</html>

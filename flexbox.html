@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190120/ourmid/pngtree-desktop-pc-computer-desktop-computer-png-image_484500.jpg" type="image/png">
+    <title>CSS Flexbox</title>
+
+    <style>
+
+      @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+      h1 {
+          font-family: 'Caprasimo', serif;
+          letter-spacing: 2px;
+          font-weight: lighter;
+          font-size: 50px;
+      }
+
+      .flex-container {
+        display: flex;
+      }
+
+      .card {
+        background-color: #90EE90;
+        cursor: pointer;
+        border-radius: 12px;
+        border-style: solid;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        border: 5px solid #90EE90;
+        height: 100px;
+        margin: 10px;
+        flex: 1;
+      }
+
+      .first {
+        flex: 2;
+      }
+
+      .second {
+        flex: 0.5;
+      }
+
+    </style>
+    
+  </head>
+
+  <body>
+
+    <h1>Flexbox</h1>
+    <div class="flex-container">
+      <div class="first card"></div>
+      <div class="second card"></div>
+      <div class="card"></div>
+      <div class="card"></div>
+    </div>
+
+  </body>
+
+</html>
